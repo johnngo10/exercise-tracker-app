@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Exercise Tracker App</h1>
+      <form action="/api/exercise/new-user" method="post">
+        <h3>Sign Up</h3>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="username"
+        />
+        <input
+          id="password"
+          type="text"
+          name="password"
+          placeholder="password"
+        />
+        <input type="submit" value="Submit" />
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </form>
+    </div>
+  </body>
+</html>
